@@ -1,19 +1,18 @@
 {
-  "name": "@rebass/forms",
+  "name": "@motion-system/forms",
   "version": "4.0.6",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "scripts": {
-    "prepare": "rebass-bundler"
+    "prepare": "motion-system-bundler"
   },
   "dependencies": {
-    "reflexbox": "^4.0.6"
+    "@motion-system/flexbox": "^4.0.6"
   },
-  "repository": "rebassjs/rebass",
+  "repository": "motion-system/motion-system",
   "bugs": {
-    "url": "https://github.com/rebassjs/rebass/issues"
+    "url": "https://github.com/motion-system/motion-system/issues"
   },
-  "license": "MIT",
   "publishConfig": {
     "access": "public"
   },

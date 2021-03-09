@@ -1,11 +1,10 @@
 {
-  "name": "@rebass/bundler",
+  "name": "@motion-system/bundler",
   "version": "4.0.5",
   "bin": {
-    "rebass-bundler": "./index.js"
+    "motion-system-bundler": "./index.js"
   },
   "main": "index.js",
-  "license": "MIT",
   "dependencies": {
     "@babel/cli": "^7.5.5",
     "@babel/core": "^7.5.5",

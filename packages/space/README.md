@@ -1,16 +1,16 @@
 
-# @rebass/space
+# @motion-system/space
 
 React component for applying responsive margin and padding to child elements without a wrapping HTML container.
 Built with [Styled System][].
 
 ```sh
-npm i @rebass/space
+npm i @motion-system/space
 ```
 
 ```js
 import React from 'react'
-import Space from '@rebass/space'
+import Space from '@motion-system/space'
 
 // Apply margin to child components without a wrapping <div>
 const App = props => (
@@ -42,7 +42,5 @@ Prop | Description | Type
 `pl` | padding-left | number, string, or array
 `px` | padding x-axis (left and right) | number, string, or array
 `py` | padding y-axis (top and bottom) | number, string, or array
-
-MIT License
 
 [styled system]: https://styled-system.com
