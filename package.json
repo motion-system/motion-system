@@ -1,15 +1,13 @@
 {
   "private": true,
-  "workspaces": [
-    "packages/*",
-    "examples/*"
-  ],
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
   "scripts": {
     "prepare": "lerna run prepare",
-    "start": "yarn workspace docs start",
-    "build": "yarn workspace docs build",
-    "test": "jest",
-    "cover": "npx codecov"
+    "test": "jest"
   },
   "devDependencies": {
     "@babel/cli": "^7.5.5",
@@ -41,8 +39,7 @@
       "html"
     ],
     "collectCoverageFrom": [
-      "packages/**/src/*.js",
-      "!packages/docs/**/*.js"
+      "packages/**/src/*.js"
     ],
     "coverageThreshold": {
       "global": {

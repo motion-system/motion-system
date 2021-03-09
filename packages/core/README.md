@@ -2,6 +2,21 @@
 
 React primitive UI components built with [Framer Motion][].
 
+
+[![Build Status][badge]][travis]
+[![Coverage][coverage-badge]][coverage]
+[![Downloads][downloads-badge]][npm]
+[![Version][version-badge]][npm]
+
+[badge]: https://flat.badgen.net/travis/motion-system/motion-system/master
+[travis]: https://travis-ci.org/motion-system/motion-system
+[coverage-badge]: https://flat.badgen.net/codecov/c/github/motion-system/motion-system
+[coverage]: https://codecov.io/github/motion-system/motion-system
+
+[downloads-badge]: https://flat.badgen.net/npm/dw/motion-system
+[version-badge]: https://flat.badgen.net/npm/v/motion-system
+[npm]: https://npmjs.com/package/motion-system
+
 ```sh
 npm i @motion-system/core
 ```
@@ -38,6 +53,9 @@ Motion System is NOT intended to be:
 
 This is an opinionated UI-system built to compose cinematic UX. Micro-interaction rich optimized animations and component patterns for web3. See [Patterns for Style Composition in React](http://jxnblk.com/writing/patterns-for-style-composition-in-react/)
 for more on some of the thought behind Motion System.
+
+
+
 
 ## Getting Started
 

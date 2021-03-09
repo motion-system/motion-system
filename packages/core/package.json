@@ -1,0 +1,35 @@
+{
+  "name": "@motion-system/core",
+  "version": "4.0.7",
+  "description": "React design system built to compose rich microinteractions and cinematic UX",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "scripts": {
+    "prepare": "motion-system-bundler"
+  },
+  "keywords": [
+    "components",
+    "react",
+    "react-component",
+    "rebass",
+    "framer-motion",
+    "ui",
+    "design-system",
+    "styled-system",
+    "styled-components",
+    "emotion",
+    "theming",
+    "presentational",
+    "stateless",
+    "functional"
+  ],
+  "author": "Q, Brent Jackson",
+  "dependencies": {
+    "@motion-system/flexbox": "^4.0.6"
+  },
+  "repository": "@motion-system/motion-system",
+  "bugs": {
+    "url": "https://github.com/motion-system/motion-system/issues"
+  },
+  "gitHead": "f0f01843e9fb63ca69112d7e97a1451b27ee9e6c"
+}
