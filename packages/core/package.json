@@ -25,11 +25,13 @@
   ],
   "author": "Q, Brent Jackson",
   "dependencies": {
-    "@motion-system/flexbox": "^4.0.6"
+    "@motion-system/flexbox": "^4.0.6",
+    "framer-motion": "^3.10.2",
+    "react-pose": "^4.0.10",
+    "react-pose-text": "^3.1.0"
   },
   "repository": "@motion-system/motion-system",
   "bugs": {
     "url": "https://github.com/motion-system/motion-system/issues"
-  },
-  "gitHead": "f0f01843e9fb63ca69112d7e97a1451b27ee9e6c"
+  }
 }

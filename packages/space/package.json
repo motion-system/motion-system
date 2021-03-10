@@ -15,12 +15,11 @@
     "margin",
     "padding"
   ],
-  "author": "Q, Brent Jackson",
+  "author": "Brent Jackson",
   "repository": "motion-system/motion-system",
   "dependencies": {
     "@emotion/core": "^10.0.0",
     "@emotion/styled": "^10.0.0",
     "styled-system": ">=5.0.0"
-  },
-  "gitHead": "f0f01843e9fb63ca69112d7e97a1451b27ee9e6c"
+  }
 }

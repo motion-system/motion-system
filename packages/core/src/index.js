@@ -1,7 +1,9 @@
 import React, { forwardRef } from "react";
-import { Box, Flex } from "@motion-system/flexbox";
+import { Box, Flex, Body, Layout, Animate, Motion } from "@motion-system/flexbox";
+import SplitText from "react-pose-text";
+import { Loader } from "./loader";
 
-export { Box, Flex };
+export { Box, Flex, Loader, Body, Layout, Animate, Motion, SplitText };
 
 export const Text = forwardRef((props, ref) => <Box ref={ref} tx="text" {...props} />);
 

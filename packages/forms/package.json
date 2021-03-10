@@ -7,7 +7,9 @@
     "prepare": "motion-system-bundler"
   },
   "dependencies": {
-    "@motion-system/flexbox": "^4.0.6"
+    "@hookform/error-message": "^0.0.5",
+    "@motion-system/flexbox": "^4.0.6",
+    "react-hook-form": "^6.15.4"
   },
   "repository": "motion-system/motion-system",
   "bugs": {
@@ -15,6 +17,5 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "gitHead": "f0f01843e9fb63ca69112d7e97a1451b27ee9e6c"
+  }
 }

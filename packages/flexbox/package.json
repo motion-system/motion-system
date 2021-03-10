@@ -22,6 +22,7 @@
     "@emotion/styled": "^10.0.0",
     "@styled-system/css": "^5.0.0",
     "@styled-system/should-forward-prop": "^5.0.0",
+    "framer-motion": "^3.10.2",
     "styled-system": "^5.0.0"
   },
   "peerDependencies": {
@@ -31,6 +32,5 @@
   "repository": "motion-system/motion-system",
   "devDependencies": {
     "babel-plugin-transform-rename-import": "^2.3.0"
-  },
-  "gitHead": "f0f01843e9fb63ca69112d7e97a1451b27ee9e6c"
+  }
 }

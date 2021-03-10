@@ -1,6 +1,9 @@
 import React, { forwardRef } from "react";
 import { Box, Flex } from "@motion-system/flexbox";
 import { props as systemProps } from "@styled-system/should-forward-prop";
+import { Web3Form } from "./web3Form";
+
+export { Web3Form };
 
 const rebassProps = [...systemProps, "sx", "variant"];
 
